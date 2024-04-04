@@ -15,29 +15,27 @@ main {
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: white;
   box-shadow: 0rem 2.5rem 2.5rem rgba(0, 0, 0, 0.0476518);
   border-radius: 2rem;
-  gap: 1.6rem;
-  width: 32rem;
-  /* height: 49.7rem; deal with this later */
-  /* margin-top: 2rem;
-  margin-bottom: 4rem; */
+  gap: 2.4rem;
+  max-width: 32rem;
+  padding: 1.6rem 1.6rem 4rem;
+  margin: 2.8rem;
 }
 
 .card__image {
   border-radius: 1rem;
-  margin-top: 1.6rem;
+  width: 100%;
 }
 
 .card__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 4rem;
   gap: 1.6rem;
-  width: 28.8rem;
+  width: 100%;
 }
 
 .card__title {
@@ -52,6 +50,7 @@ main {
   color: #7d889e;
   font-size: 1.5rem;
   font-weight: 400;
-  width: 25.6rem;
+  width: 100%;
+  max-width: 25.6rem;
   text-align: center;
 }
