@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [View Solution](https://github.com/princeeze/qr-code-component-main)
-- Live Site URL: [View Live Site](https://your-live-site-url.com)
+- Live Site URL: [View Live Site](https://main--princeeze-qrcode.netlify.app/)
 
 ## My process
 
