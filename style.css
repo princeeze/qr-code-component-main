@@ -8,7 +8,7 @@ body {
   height: 100vh;
 }
 
-.main {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -22,12 +22,12 @@ body {
   margin-top: 20px;
 }
 
-.qrcode {
+.card__image {
   border-radius: 10px;
   margin-top: 16px;
 }
 
-.text {
+.card__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,7 @@ body {
   width: 288px;
 }
 
-h1 {
+.card__title {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
@@ -44,7 +44,7 @@ h1 {
   color: #1f314f;
 }
 
-h2 {
+.card__subtitle {
   color: #7d889e;
   font-size: 15px;
   font-weight: 400;
@@ -52,8 +52,8 @@ h2 {
   text-align: center;
 }
 
-h1,
-h2 {
+.card__title,
+.card__subtitle {
   padding: 0px;
   margin: 0px;
 }
