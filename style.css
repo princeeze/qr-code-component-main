@@ -2,7 +2,14 @@
   font-size: 62.5%;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 main {
+  box-sizing: border-box;
   background-color: #d5e1ef;
   font-family: "Outfit";
   font-style: normal;
